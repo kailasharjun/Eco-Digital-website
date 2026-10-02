@@ -124,7 +124,7 @@ a {
 .hero-content > p {
     max-width: 600px;
     margin: 25px 0;
-    color: #aeb5c8;
+    color: #CBD5E1;
     font-size: 17px;
 }
 
@@ -1360,4 +1360,15 @@ a {
 
 .contact-details a:hover {
     color: #8b5cf6;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }
